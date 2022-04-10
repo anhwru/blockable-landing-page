@@ -1,0 +1,46 @@
+.blockable_partnership--wrapper {
+    background-color: black;
+    height: 100vh;
+
+    .partnership-title {
+        padding: 15% 10% 2%;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 94%;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #E4E4E4;
+    }
+
+    .blockable_partner-sub {
+        width: 85%;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 160%;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+        margin: auto;
+    }
+
+    .partnership-logo {
+        padding: 5% 0;
+
+        .list-brand {
+            margin: auto;
+            display: flex;
+        }
+
+        .img-wrapper {
+            padding: 10px;
+        }
+
+        img {
+            width: 90%;
+        }
+    }
+}

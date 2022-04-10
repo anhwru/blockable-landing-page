@@ -1,0 +1,99 @@
+.blockable_nest--wrapper {
+    background-color: black;
+    height: 100vh;
+    position: relative;
+
+    .nest-title {
+        padding: 7% 10% 5%;
+
+        .card {
+            background-color: transparent;
+            text-align: left;
+
+            .card-title {
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 4rem;
+                line-height: 94%;
+                letter-spacing: -0.03em;
+                color: #E4E4E4;
+            }
+
+            .card-text {
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+            }
+
+        }
+
+    }
+
+    .card_items-wrapper {
+        justify-content: center;
+        text-align: left;
+        margin: auto;
+        width: 80%;
+
+        .nest_card-items {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(20px);
+            border-radius: 50px;
+            min-height: 15vh;
+            padding: 2rem 1.8rem 0;
+            border: 0.3px solid #EDFFF9;
+
+            .card-title {
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1.4rem;
+                line-height: 94%;
+                letter-spacing: -0.03em;
+                color: #E4E4E4;
+            }
+
+            .card-text {
+                font-family: 'Helvetica';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.6rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+            }
+
+            img {
+                width: 100%;
+                margin: auto;
+            }
+
+            .card-body {
+                padding-right: 0;
+                padding-top: 0;
+
+                button {
+                    width: 3rem;
+                    padding: 0;
+                    background-color: none;
+                    margin-left: auto;
+                    display: block;
+                    border: none;
+                    outline: none;
+                    box-shadow: none;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
