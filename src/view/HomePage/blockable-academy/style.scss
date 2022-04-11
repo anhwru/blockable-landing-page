@@ -46,59 +46,39 @@
         margin: auto;
         width: 80%;
 
-        .academy_card-items {
+        .card {
+            height: 40vh;
+            padding: 5%;
             background: rgba(255, 255, 255, 0.08);
-            backdrop-filter: blur(20px);
             border-radius: 50px;
-            min-height: 15vh;
-            padding: 2rem 1.8rem 0;
-            border: 0.3px solid #EDFFF9;
 
-            .card-title {
-                font-family: 'Helvetica';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 1.4rem;
-                line-height: 94%;
-                letter-spacing: -0.03em;
-                color: #E4E4E4;
-            }
-
-            .card-text {
-                font-family: 'Helvetica';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 0.6rem;
-                line-height: 160%;
-                letter-spacing: -0.03em;
-                color: #FFFFFF;
-            }
-
-            img {
-                width: 100%;
-                margin: auto;
+            .card-img-top {
+                height: 6rem;
+                width: 6rem;
+                position: absolute;
+                margin-top: -20%;
+                margin-left: 10%;
             }
 
             .card-body {
-                padding-right: 0;
-                padding-top: 0;
 
-                button {
-                    width: 3rem;
-                    padding: 0;
-                    background-color: none;
-                    margin-left: auto;
-                    display: block;
-                    border: none;
-                    outline: none;
-                    box-shadow: none;
 
-                    img {
-                        width: 100%;
-                    }
+                .card-title {
+                    color: #E4E4E4;
+                    font-size: 1.3rem;
+                    margin: 15% 0 10%;
+                    font-weight: 700;
+                }
+
+                .card-text {
+                    color: #FFFFFF;
+                    font-size: 0.7rem;
                 }
             }
+
+
         }
+
 
     }
 
