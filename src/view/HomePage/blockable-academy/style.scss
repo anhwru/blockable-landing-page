@@ -47,9 +47,10 @@
         width: 80%;
 
         .card {
-            height: 40vh;
+            min-height: 25vh;
+            max-height: 40vh;
             padding: 5%;
-            background: rgba(255, 255, 255, 0.08);
+            background: #142123;
             border-radius: 50px;
 
             .card-img-top {
