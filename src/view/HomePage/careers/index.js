@@ -1,19 +1,19 @@
 import React from "react";
 import * as Rb from "react-bootstrap";
 import "./style.scss";
-import CareersSlider from "./careers";
+import Careers from "./careers";
 
-const Careers = () => {
+const BlockableNews = () => {
   return (
     <section className="blockable_careers--wrapper">
       <Rb.Container>
-        <Rb.Col lg={12} sm={12}>
-          <h2 className="blockable_hub-title text-center">Jobs</h2>
-          <CareersSlider />
+        <Rb.Col lg={10} sm={10} className="m-auto">
+          <h2 className="blockable_carrers-title">Careers</h2>
+          <Careers />
         </Rb.Col>
       </Rb.Container>
     </section>
   );
 };
 
-export default Careers;
+export default BlockableNews;

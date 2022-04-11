@@ -1,4 +1,197 @@
-.blockable_careers--wrapper{
-    background-color: deepskyblue;
+.blockable_careers--wrapper {
+    background-color: black;
     height: 100vh;
+
+    .blockable_carrers-title {
+        padding: 7% 0 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 94%;
+        letter-spacing: -0.03em;
+        color: #E4E4E4;
+        text-align: left;
+    }
+
+    .carousel-indicators {
+        justify-content: flex-start;
+        position: absolute;
+        margin-left: 2%;
+        margin-bottom: -3%;
+
+        button {
+            width: 6px !important;
+            height: 6px !important;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+    }
+
+    .carousel-indicators button.active::after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #E4E4E4;
+        transform: rotate(45deg);
+        margin-left: -4px;
+        margin-top: -7px;
+    }
+
+    a.carousel-control-prev {
+        position: absolute;
+        margin-left: -15%;
+        margin-bottom: -20%;
+
+        .carousel-control-prev-icon {
+            background-image: url("../../../assets/arr_prev.png");
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    a.carousel-control-next {
+        position: absolute;
+        margin-right: -15%;
+        margin-bottom: -20%;
+
+        .carousel-control-next-icon {
+            background-image: url("../../../assets/arr_next.png");
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    .card_content-top {
+        padding: 2% 0;
+
+        .box {
+            height: 5rem;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+
+            display: block;
+        }
+
+        .sub-title {
+            text-align: left;
+            padding: 5% 0% 0 0;
+
+            p {
+                font-weight: 700;
+                font-size: 1.5rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                margin-bottom: 0;
+                color: #FFFFFF;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 2rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+
+        .top-content {
+            .timer {
+                font-weight: 400;
+                font-size: 0.6rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                color: #787878;
+            }
+
+            h3 {
+                position: relative;
+                font-weight: 700;
+                font-size: 1.4rem;
+                line-height: 94%;
+                letter-spacing: -0.03em;
+                color: #E4E4E4;
+                margin: 8% 0 5%;
+
+                &::after {
+                    content: "";
+                    width: 20%;
+                    display: block;
+                    position: absolute;
+                    border-bottom: 2px solid #9D9D9D;
+                    margin-top: 2%;
+                }
+            }
+
+            p {
+                font-size: 0.8rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+                width: 80%;
+            }
+        }
+
+
+    }
+
+    .card_content-bot {
+        margin: auto;
+        justify-content: space-between;
+
+        .top-content {
+            padding: 2% 4%;
+            color: #FFFFFF;
+            text-align: left;
+            border: 1px solid #f2f2f2;
+            background: #142123;
+            border-radius: 40px;
+            margin: 4% 0 2%;
+            width: 47%;
+
+            .timer {
+                font-weight: 400;
+                font-size: 0.6rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                color: #787878;
+            }
+
+            h3 {
+                position: relative;
+                font-weight: 700;
+                font-size: 1.2rem;
+                line-height: 94%;
+                letter-spacing: -0.03em;
+                color: #E4E4E4;
+                margin: 8% 0 5%;
+
+                &::after {
+                    content: "";
+                    width: 20%;
+                    display: block;
+                    position: absolute;
+                    border-bottom: 2px solid #9D9D9D;
+                    margin-top: 2%;
+                }
+            }
+
+            p {
+                font-size: 0.7rem;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+                width: 80%;
+            }
+        }
+    }
+
+
+
 }
