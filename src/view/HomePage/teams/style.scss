@@ -1,6 +1,79 @@
-.blockable_team--wrapper{
-    background-color: darkseagreen;
+.blockable_team--wrapper {
+    background-color: black;
     height: 100vh;
+
+    button.slick-arrow.slick-prev::before {
+        display: none;
+    }
+
+    button.slick-arrow.slick-next::before {
+        display: none;
+    }
+
+    button.slick-arrow.slick-prev {
+        background-image: url("../../../assets/arr_prev.png");
+        height: 2.5rem;
+        width: 2.5rem;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+
+    button.slick-arrow.slick-next {
+        background-image: url("../../../assets/arr_next.png");
+        height: 2.5rem;
+        width: 2.5rem;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .blockable_team-title {
+        padding: 5% 10% 5%;
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #E4E4E4;
+            padding: 2rem 0 1rem;
+
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: #FFFFFF;
+            width: 50%;
+            margin: auto;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .card {
+
+        margin-top: 3rem;
+        background-color: transparent;
+
+        img {
+            width: 35%;
+            margin: auto;
+        }
+
+        .card-title {
+            font-weight: 700;
+            font-size: 2rem;
+            color: #FFFFFF;
+        }
+
+        h3 {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin: 1rem 0;
+        }
+
+        p {
+            width: 85%;
+            font-size: 0.6rem;
+        }
+    }
 }
-
-

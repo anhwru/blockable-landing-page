@@ -1,47 +1,77 @@
-import React from "react";
+import React, { Component } from "react";
+import Slider from "react-slick";
 import * as Rb from "react-bootstrap";
+import Team from "../../../assets/user.png";
 
-const NewsBlock = () => {
-  return (
-    <Rb.Carousel>
-      <Rb.Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-          height={300}
-        />
-        <Rb.Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Rb.Carousel.Caption>
-      </Rb.Carousel.Item>
-      <Rb.Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-          height={300}
-        />
-        <Rb.Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Rb.Carousel.Caption>
-      </Rb.Carousel.Item>
-      <Rb.Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-          height={300}
-        />
-        <Rb.Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Rb.Carousel.Caption>
-      </Rb.Carousel.Item>
-    </Rb.Carousel>
-  );
-};
+export default class SimpleSlider extends Component {
+  render() {
+    var settings = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
+    };
+    return (
+      <div>
+        <Slider {...settings}>
+          <Rb.Col md={4} lg={4} xl={4}>
+            <Rb.Card>
+              <Rb.Card.Img variant="top" src={Team} />
+              <Rb.Card.Body>
+                <Rb.Card.Title>Jane Cooper</Rb.Card.Title>
+                <h3>Project Manager</h3>
+                <Rb.Card.Text>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore magna aliqua.
+                </Rb.Card.Text>
+              </Rb.Card.Body>
+            </Rb.Card>
+          </Rb.Col>
 
-export default NewsBlock;
+          <Rb.Col md={4} lg={4} xl={4}>
+            <Rb.Card>
+              <Rb.Card.Img variant="top" src={Team} />
+              <Rb.Card.Body>
+                <Rb.Card.Title>Jane Cooper</Rb.Card.Title>
+                <h3>Project Manager</h3>
+                <Rb.Card.Text>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore magna aliqua.
+                </Rb.Card.Text>
+              </Rb.Card.Body>
+            </Rb.Card>
+          </Rb.Col>
+          <Rb.Col md={4} lg={4} xl={4}>
+            <Rb.Card>
+              <Rb.Card.Img variant="top" src={Team} />
+              <Rb.Card.Body>
+                <Rb.Card.Title>Jane Cooper</Rb.Card.Title>
+                <h3>Project Manager</h3>
+                <Rb.Card.Text>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore magna aliqua.
+                </Rb.Card.Text>
+              </Rb.Card.Body>
+            </Rb.Card>
+          </Rb.Col>
+          <Rb.Col md={4} lg={4} xl={4}>
+            <Rb.Card>
+              <Rb.Card.Img variant="top" src={Team} />
+              <Rb.Card.Body>
+                <Rb.Card.Title>Jane Cooper</Rb.Card.Title>
+                <h3>Project Manager</h3>
+                <Rb.Card.Text>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore magna aliqua.
+                </Rb.Card.Text>
+              </Rb.Card.Body>
+            </Rb.Card>
+          </Rb.Col>
+        </Slider>
+      </div>
+    );
+  }
+}
