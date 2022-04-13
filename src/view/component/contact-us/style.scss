@@ -1,0 +1,67 @@
+.blockable_contact--wrapper {
+    background-color: black;
+    height: 100vh;
+
+    .blockable_contact-title {
+        padding: 15% 10% 5%;
+
+        h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #E4E4E4;
+            padding: 2rem 0 1rem;
+
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: #FFFFFF;
+            width: 70%;
+            margin: auto;
+            padding-bottom: 2rem;
+        }
+
+        .disclaimer {
+            padding: 5px 40px;
+            border-radius: 99px;
+        }
+    }
+
+    .contact-group {
+        button {
+            padding: 0;
+            margin: 0 2rem;
+            border: none;
+            background-color: transparent;
+            box-shadow: none;
+        }
+
+    }
+
+    .address-contact {
+        padding: 7rem 0;
+
+        .addr {
+            justify-content: center;
+            color: #FFFFFF;
+            font-size: 0.7rem;
+
+            img {
+                width: 20px;
+                height: 20px;
+                margin-right: 0.5rem;
+            }
+
+            p {
+                line-height: 1.3rem;
+            }
+
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+}
