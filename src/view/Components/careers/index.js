@@ -5,7 +5,7 @@ import Careers from "./careers";
 
 const BlockableNews = () => {
   return (
-    <section className="blockable_careers--wrapper">
+    <section className="blockable_careers--wrapper" id="careers_block">
       <Rb.Container>
         <Rb.Col lg={10} sm={10} className="m-auto">
           <h2 className="blockable_carrers-title">Careers</h2>

@@ -5,7 +5,7 @@ import PartnerShip from "./partnerShip";
 
 const BlockablePartnerShip = () => {
   return (
-    <section className="blockable_partnership--wrapper">
+    <section className="blockable_partnership--wrapper" id="partnership_block">
       <Rb.Container>
         <Rb.Col lg={8} sm={12} className="text-center m-auto">
           <h2 className="partnership-title">Blockable Partnership</h2>

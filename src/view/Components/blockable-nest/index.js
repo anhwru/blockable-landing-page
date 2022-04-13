@@ -1,20 +1,17 @@
 import React from "react";
 import * as Rb from "react-bootstrap";
 import "./style.scss";
-import AcademyCard from "./academy";
-import Arrow from "../../../assets/u_arrow-right.png";
+import NestCard from "./nestCard";
 
-const BlockableAcademy = () => {
+const BlockableNest = () => {
   return (
-    <section className="blockable_academy--wrapper">
+    <section className="blockable_nest--wrapper" id="nest_block">
       <Rb.Container>
-        <Rb.Row className="academy-title">
-          <Rb.Col md={8} lg={8} sm={12} xl={8}>
+        <Rb.Row className="nest-title">
+          <Rb.Col md={6} lg={6} sm={12} xl={6}>
             <Rb.Card>
               <Rb.Card.Body>
-                <Rb.Card.Title>
-                  Blockable Academy <img src={Arrow} alt="arrow" />
-                </Rb.Card.Title>
+                <Rb.Card.Title>Blockable Nest</Rb.Card.Title>
                 <Rb.Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -27,13 +24,13 @@ const BlockableAcademy = () => {
         </Rb.Row>
         <Rb.Row className="card_items-wrapper">
           <Rb.Col lg={4} md={4} sm={12}>
-            <AcademyCard />
+            <NestCard />
           </Rb.Col>
           <Rb.Col lg={4} md={4} sm={12}>
-            <AcademyCard />
+            <NestCard />
           </Rb.Col>
           <Rb.Col lg={4} md={4} sm={12}>
-            <AcademyCard />
+            <NestCard />
           </Rb.Col>
         </Rb.Row>
       </Rb.Container>
@@ -41,4 +38,4 @@ const BlockableAcademy = () => {
   );
 };
 
-export default BlockableAcademy;
+export default BlockableNest;

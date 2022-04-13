@@ -8,7 +8,7 @@ import "./style.scss";
 
 const BlockableHub = () => {
   return (
-    <section className="blockable_hub--wrapper">
+    <section className="blockable_hub--wrapper" id="hub_block">
       <Rb.Container>
         <Rb.Row>
           <Rb.Col lg={6} sm={6} className="hub-title">

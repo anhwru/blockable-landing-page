@@ -13,7 +13,12 @@ const Team = () => {
   return (
     <section className="blockable_contact--wrapper">
       <Rb.Container>
-        <Rb.Col lg={12} sm={12} className="blockable_contact-title">
+        <Rb.Col
+          lg={12}
+          sm={12}
+          className="blockable_contact-title"
+          id="contactus_block"
+        >
           <h2>Contact Us</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

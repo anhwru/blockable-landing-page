@@ -1,21 +1,16 @@
-* {
-    font-family: 'Helvetica' !important;
-}
+.academy_page--wrapper {
+    background-color: #000;
 
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-
-.home_page--wrapper {
-    position: relative;
-    background-color: black;
-
-    .container-fluid {
-        margin: 0;
-        padding: 0;
+    .academy_page-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3rem;
+        padding: 10% 0 5% 19%;
+        background: linear-gradient(90deg, #FFFFFF 0%, #3D7361 102.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-align: left;
     }
 }
-
-@import "~bootstrap/scss/bootstrap";

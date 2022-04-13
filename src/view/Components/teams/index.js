@@ -5,7 +5,7 @@ import PersonSlider from "./personInfo";
 
 const Team = () => {
   return (
-    <section className="blockable_team--wrapper">
+    <section className="blockable_team--wrapper" id="teams_block">
       <Rb.Container>
         <Rb.Col lg={12} sm={12} className="blockable_team-title">
           <h2>Teams</h2>

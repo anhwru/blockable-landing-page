@@ -1,12 +1,16 @@
 import "./App.css";
 import Home from "./view/HomePage/index";
 import Academy from "./view/Academy/index";
+import CardPage from "./view/CardPage";
+import Coming from "./view/Coming";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      {/* <Academy />  */}
+      {/* <Coming /> */}
+      {/* <Home /> */}
+      <Academy />
+      {/* <CardPage /> */}
     </div>
   );
 }

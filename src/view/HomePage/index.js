@@ -2,15 +2,15 @@ import React from "react";
 import * as Rb from "react-bootstrap";
 
 import "./styles.scss";
-import BlockableHeader from "../component/block-header";
-import BlockableHub from "../component/blockable-hub";
-import BlockableNest from "../component/blockable-nest";
-import BlockablePartnerShip from "../component/blockable-partnership";
-import BlockableAcademy from "../component/blockable-academy";
-import BlockableNews from "../component/blockable-news";
-import Team from "../component/teams";
-import Careers from "../component/careers";
-import ContactUs from "../component/contact-us";
+import BlockableHeader from "../Components/block-header";
+import BlockableHub from "../Components/blockable-hub";
+import BlockableNest from "../Components/blockable-nest";
+import BlockablePartnerShip from "../Components/blockable-partnership";
+import BlockableAcademy from "../Components/blockable-academy";
+import BlockableNews from "../Components/blockable-news";
+import Team from "../Components/teams";
+import Careers from "../Components/careers";
+import ContactUs from "../Components/contact-us";
 
 const Home = () => {
   return (

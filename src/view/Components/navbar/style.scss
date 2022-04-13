@@ -1,7 +1,13 @@
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav a {
     color: white !important;
     font-size: 18px !important;
     font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav a.active {
+    color: #7EEE83 !important;
 }
 
 .navbar-nav a {

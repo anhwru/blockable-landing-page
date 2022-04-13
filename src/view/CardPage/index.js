@@ -4,19 +4,18 @@ import "./style.scss";
 
 import ContactUs from "../Components/contact-us";
 import NavBarTop from "../Components/navbar";
-import AcademyGridList from "../Components/academy-grid";
+import CardList from "../Components/card-info";
 
-const Academy = () => {
+const CardPage = () => {
   return (
-    <section className="academy_page--wrapper">
+    <section className="home_page--wrapper">
       <Rb.Container fluid>
         <NavBarTop />
-        <h2 className="academy_page-title">Blockable Academy</h2>
-        <AcademyGridList />
+        <CardList />
         <ContactUs />
       </Rb.Container>
     </section>
   );
 };
 
-export default Academy;
+export default CardPage;
