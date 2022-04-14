@@ -1,6 +1,9 @@
 .blockable_contact--wrapper {
-    background-color: black;
+    background-image: url("../../../assets/bg3.png");
     height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .blockable_contact-title {
         padding: 15% 10% 5%;

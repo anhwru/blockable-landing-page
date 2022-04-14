@@ -1,6 +1,9 @@
 .blockable_careers--wrapper {
-    background-color: black;
+    background-image: url("../../../assets/bg_footer.png");
     height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .blockable_carrers-title {
         padding: 7% 0 0;
@@ -80,7 +83,7 @@
 
         .sub-title {
             text-align: left;
-            padding: 5% 0% 0 0;
+            padding: 5% 0% 0 1%;
 
             p {
                 font-weight: 700;
