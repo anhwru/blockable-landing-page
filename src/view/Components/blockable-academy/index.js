@@ -1,40 +1,37 @@
-import React from "react";
-import * as Rb from "react-bootstrap";
-import "./style.scss";
-import AcademyCard from "./academy";
-import Arrow from "../../../assets/u_arrow-right.png";
+import React, { useContext } from 'react';
+import * as Rb from 'react-bootstrap';
+import './style.scss';
+import AcademyCard from './academy';
+import Arrow from '../../../assets/u_arrow-right.png';
+import { DataContext } from '../../../contexts/data.context';
 
 const BlockableAcademy = () => {
+  const data = useContext(DataContext);
   return (
-    <section className="blockable_academy--wrapper" id="academy_block">
+    <section className='blockable_academy--wrapper' id='academy_block'>
       <Rb.Container>
-        <Rb.Row className="academy-title">
+        <Rb.Row className='academy-title'>
           <Rb.Col md={8} lg={8} sm={12} xl={8}>
             <Rb.Card>
               <Rb.Card.Body>
                 <Rb.Card.Title>
-                  Blockable Academy <img src={Arrow} alt="arrow" />
+                  Blockable Academy <img src={Arrow} alt='arrow' />
                 </Rb.Card.Title>
                 <Rb.Card.Text>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniamn reprehenderit in voluptate velit esse
-                  cillum dolore
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamn
+                  reprehenderit in voluptate velit esse cillum dolore
                 </Rb.Card.Text>
               </Rb.Card.Body>
             </Rb.Card>
           </Rb.Col>
         </Rb.Row>
-        <Rb.Row className="card_items-wrapper">
-          <Rb.Col lg={4} md={4} sm={12}>
-            <AcademyCard />
-          </Rb.Col>
-          <Rb.Col lg={4} md={4} sm={12}>
-            <AcademyCard />
-          </Rb.Col>
-          <Rb.Col lg={4} md={4} sm={12}>
-            <AcademyCard />
-          </Rb.Col>
+        <Rb.Row className='card_items-wrapper'>
+          {Object.entries(data.contents['Blockable academy']).map(([key, value]) => (
+            <Rb.Col lg={4} md={4} sm={12} key={value.id}>
+              <AcademyCard title={value.description} desc={value.content} />
+            </Rb.Col>
+          ))}
         </Rb.Row>
       </Rb.Container>
     </section>

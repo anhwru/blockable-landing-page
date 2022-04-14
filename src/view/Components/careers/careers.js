@@ -1,6 +1,5 @@
 import React from "react";
 import * as Rb from "react-bootstrap";
-import Box from "../../../assets/news_img.png";
 
 const Careers = () => {
   return (

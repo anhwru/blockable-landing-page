@@ -1,16 +1,10 @@
-import "./App.css";
-import Home from "./view/HomePage/index";
-import Academy from "./view/Academy/index";
-import CardPage from "./view/CardPage";
-import Coming from "./view/Coming";
+import './App.css';
+import Home from './view/HomePage/index';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Coming /> */}
+    <div className='App'>
       <Home />
-      {/* <Academy /> */}
-      {/* <CardPage /> */}
     </div>
   );
 }

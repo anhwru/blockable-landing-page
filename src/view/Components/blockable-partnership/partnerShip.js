@@ -1,5 +1,4 @@
 import React from "react";
-import * as Rb from "react-bootstrap";
 
 const PartnerShip = () => {
   return (
