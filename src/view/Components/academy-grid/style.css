@@ -1,0 +1,108 @@
+.academy_grid-list {
+  padding: 0% 10% 5% 10%;
+  min-height: 100vh;
+}
+
+.academy_grid-list .academy_items {
+  padding: 0 10%;
+}
+
+.academy_grid-list .academy_items .item {
+  padding: 2%;
+}
+
+.academy_grid-list .academy_items .item .card {
+  height: 40vh;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.academy_grid-list .academy_items .item .card img {
+  height: 20vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.academy_grid-list .academy_items .item .card .card-body {
+  background-color: #141414;
+  position: relative;
+}
+
+.academy_grid-list .academy_items .item .card .card-body .badge {
+  background: linear-gradient(149.2deg, #7EEE83 18.67%, #06A872 115.53%);
+  border: 0.5px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 5.227px 8.21385px 13.4409px rgba(11, 90, 64, 0.26);
+          box-shadow: 5.227px 8.21385px 13.4409px rgba(11, 90, 64, 0.26);
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  display: block;
+  margin-right: auto;
+  max-width: 45%;
+}
+
+.academy_grid-list .academy_items .item .card .card-body .card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 156%;
+  letter-spacing: -0.03em;
+  color: #E4E4E4;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.academy_grid-list .academy_items .item .card .card-body .required-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.academy_grid-list .academy_items .item .card .card-body .required-level img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.academy_grid-list .academy_items .item .card .card-body .required-level p {
+  margin: 2px 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+.academy_grid-list .academy_items .item .card .card-body button {
+  width: 3rem;
+  padding: 0;
+  background-color: none;
+  margin-left: auto;
+  display: block;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+
+.academy_grid-list .academy_items .item .card .card-body button img {
+  height: 30px !important;
+  width: 30px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */

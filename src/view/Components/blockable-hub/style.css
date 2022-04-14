@@ -1,0 +1,88 @@
+.blockable_hub--wrapper {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../../assets/wl.png");
+  background-position: left;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 10% 5%;
+}
+
+.blockable_hub--wrapper .hub-title {
+  margin: auto;
+}
+
+.blockable_hub--wrapper .hub-title .blockable_hub-title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 94%;
+  letter-spacing: -0.03em;
+  color: #E4E4E4;
+}
+
+.blockable_hub--wrapper .hub-title .blockable_hub-sub {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 10%;
+}
+
+.blockable_hub--wrapper .list-hub {
+  text-align: left;
+  min-height: 25rem;
+}
+
+.blockable_hub--wrapper .list-hub img {
+  width: 30%;
+  max-height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blockable_hub--wrapper .list-hub .list_hub-title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 94%;
+  letter-spacing: -0.03em;
+  color: #E4E4E4;
+}
+
+.blockable_hub--wrapper .list-hub .list_hub-content {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  width: 60%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .blockable_hub--wrapper {
+    height: auto;
+    padding: 5% 10%;
+  }
+  .blockable_hub--wrapper .list-hub {
+    padding: 0 2rem !important;
+  }
+  .blockable_hub--wrapper .blockable_hub-title {
+    font-size: 2.5rem !important;
+  }
+  .blockable_hub--wrapper .blockable_hub-sub {
+    font-size: 0.9rem !important;
+  }
+  .blockable_hub--wrapper .hub-image {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

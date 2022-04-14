@@ -1,0 +1,34 @@
+.coming_page--wrapper {
+  height: 100vh;
+  background-image: url("../../assets/bg3.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.coming_page--wrapper .coming_page-title {
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: 0.515em;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, right top, color-stop(32.41%, #FFFFFF), color-stop(106.5%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, #FFFFFF 32.41%, rgba(255, 255, 255, 0) 106.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */

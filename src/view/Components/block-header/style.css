@@ -1,0 +1,53 @@
+.block_header--wrapper {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../../../src/assets/bg1.png");
+}
+
+.block_header--wrapper .banner {
+  margin: 20% 10%;
+}
+
+.block_header--wrapper .banner .card {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+}
+
+.block_header--wrapper .banner .card .card-title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 94%;
+  letter-spacing: -0.02em;
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(102.93%, #3D7361));
+  background: linear-gradient(90deg, #FFFFFF 0%, #3D7361 102.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.block_header--wrapper .banner .card .card-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .block_header--wrapper {
+    height: auto;
+  }
+  .block_header--wrapper .card-title {
+    font-size: 3rem !important;
+  }
+  .block_header--wrapper .card .card-text {
+    font-size: 0.8rem !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
