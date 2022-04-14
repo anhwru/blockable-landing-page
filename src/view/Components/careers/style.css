@@ -196,6 +196,22 @@
 }
 
 @media only screen and (max-device-width: 480px) {
+  .blockable_careers--wrapper a.carousel-control-prev {
+    margin-left: -3% !important;
+    margin-bottom: -40% !important;
+  }
+  .blockable_careers--wrapper a.carousel-control-next {
+    margin-right: -3% !important;
+    margin-bottom: -40% !important;
+  }
+  .blockable_careers--wrapper a.carousel-control-prev .carousel-control-prev-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .blockable_careers--wrapper a.carousel-control-next .carousel-control-next-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
   .blockable_careers--wrapper {
     height: auto;
   }
@@ -205,12 +221,18 @@
   .blockable_careers--wrapper .blockable_carrers-title {
     font-size: 2rem;
   }
+  .blockable_careers--wrapper .card_content-bot {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .blockable_careers--wrapper .top-content {
-    width: 100% !important;
+    width: 90% !important;
+    margin: auto;
   }
   .blockable_careers--wrapper .sub-title {
     text-align: left;
-    padding: 5% 0% 0 5% !important;
+    padding: 5% 0% 0 7% !important;
   }
   .blockable_careers--wrapper .carousel-indicators {
     margin-bottom: -7%;

@@ -34,6 +34,16 @@
 }
 
 @media only screen and (max-device-width: 480px) {
+  .nav_container.container {
+    padding: 0;
+  }
+  a.navbar-brand {
+    width: 50%;
+    text-align: left;
+  }
+  button.navbar-toggler.collapsed {
+    padding: 0;
+  }
   .navbar-toggler:focus {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
