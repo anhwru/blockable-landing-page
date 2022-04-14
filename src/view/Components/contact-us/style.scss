@@ -65,3 +65,25 @@
     }
 
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_contact--wrapper {
+        height: auto;
+
+        .blockable_contact-title {
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 0.7rem;
+                width: 100%;
+            }
+
+        }
+
+        .contact-group button {
+            margin: 1rem !important;
+        }
+    }
+}

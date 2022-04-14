@@ -23,6 +23,7 @@ const BlockableHub = () => {
         <Rb.Row>
           <Rb.Col xl={6} lg={6} sm={12}>
             <img
+              className="hub-image"
               src="https://www.kojac.nl/tailwind/images/Backend/nodejs.png"
               alt="logo-hub"
               width={300}

@@ -37,3 +37,21 @@
         }
     }
 }
+
+// responsive
+@media only screen and (max-device-width: 480px) {
+
+    .block_header--wrapper {
+        height: auto;
+
+        .card-title {
+            font-size: 3rem !important;
+        }
+
+        .card .card-text {
+            font-size: 0.8rem !important;
+        }
+    }
+
+
+}

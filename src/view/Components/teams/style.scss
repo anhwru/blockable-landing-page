@@ -77,3 +77,19 @@
         }
     }
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_team--wrapper {
+        height: auto;
+
+        .blockable_team-title {
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                width: 100% !important;
+            }
+        }
+    }
+}

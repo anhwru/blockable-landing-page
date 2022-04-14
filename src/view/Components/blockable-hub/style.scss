@@ -67,3 +67,26 @@
     }
 
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_hub--wrapper {
+        height: auto;
+        padding: 5% 10%;
+
+        .list-hub {
+            padding: 0 2rem !important;
+        }
+
+        .blockable_hub-title {
+            font-size: 2.5rem !important;
+        }
+
+        .blockable_hub-sub {
+            font-size: 0.9rem !important;
+        }
+
+        .hub-image {
+            display: none !important;
+        }
+    }
+}

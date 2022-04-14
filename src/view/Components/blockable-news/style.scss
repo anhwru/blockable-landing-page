@@ -199,3 +199,25 @@
 
 
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_newsblock--wrapper {
+        height: auto;
+
+        .blockable_news-title {
+            font-size: 2rem !important;
+        }
+
+        .card_content-top.col-md-12 {
+            display: none !important;
+        }
+
+        .card_content-bot .top-content {
+            width: 100% !important;
+        }
+
+        .carousel-indicators {
+            margin-bottom: -7% !important;
+        }
+    }
+}

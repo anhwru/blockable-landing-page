@@ -84,3 +84,27 @@
     }
 
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_academy--wrapper {
+        height: auto;
+
+        .card-title {
+            font-size: 2.5rem !important;
+        }
+
+        .card-text {
+            font-size: 0.7rem !important;
+        }
+
+        .card_items-wrapper {
+            .card {
+                margin: 2rem 0 !important;
+
+                .card-title {
+                    font-size: 1.2rem !important;
+                }
+            }
+        }
+    }
+}

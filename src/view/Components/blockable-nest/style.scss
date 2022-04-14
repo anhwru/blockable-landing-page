@@ -97,3 +97,27 @@
     }
 
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_nest--wrapper {
+        height: auto;
+
+        .nest-title {
+            .card-title {
+                font-size: 2rem !important;
+            }
+
+            .card-text {
+                font-size: 0.8rem !important;
+            }
+
+            img.card-img-top {
+                max-width: 75% !important;
+            }
+        }
+
+        .nest_card-items.card {
+            margin: 10px 0 !important;
+        }
+    }
+}

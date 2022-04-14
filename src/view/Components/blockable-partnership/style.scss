@@ -44,3 +44,28 @@
         }
     }
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_partnership--wrapper {
+        height: auto;
+
+        .partnership-title {
+            font-size: 2rem !important;
+        }
+
+        .blockable_partner-sub {
+            font-size: 0.8rem;
+        }
+
+        .img-wrapper.col-xl-3.col-lg-3.col-md-3.col-sm-4 {
+            width: 30%;
+            margin: auto;
+        }
+
+        .img-wrapper.col-xl-3.col-lg-3.col-md-3.col-sm-5 {
+            width: 40%;
+            margin: auto;
+            padding: 0 2rem;
+        }
+    }
+}

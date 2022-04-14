@@ -195,3 +195,31 @@
 
 
 }
+
+@media only screen and (max-device-width: 480px) {
+    .blockable_careers--wrapper {
+        height: auto;
+
+        .blockable_carrers-title {
+            display: none !important;
+        }
+
+        .blockable_carrers-title {
+            font-size: 2rem;
+        }
+
+        .top-content {
+            width: 100% !important;
+        }
+
+        .sub-title {
+            text-align: left;
+            padding: 5% 0% 0 5% !important;
+        }
+
+        .carousel-indicators {
+            margin-bottom: -7%;
+        }
+
+    }
+}

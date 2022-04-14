@@ -18,28 +18,28 @@ const BlockablePartnerShip = () => {
         <Rb.Row className="partnership-logo">
           <Rb.Col md={9} lg={9} className="list-brand">
             <Rb.Row>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={4} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={4} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={4} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={5} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={5} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={4} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={4} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
-              <Rb.Col md={3} lg={3} xl={3} sm={12} className="img-wrapper">
+              <Rb.Col md={3} lg={3} xl={3} sm={4} className="img-wrapper">
                 <PartnerShip />
               </Rb.Col>
             </Rb.Row>
