@@ -38,7 +38,7 @@
     padding: 0;
   }
   a.navbar-brand {
-    width: 50%;
+    width: 60%;
     text-align: left;
   }
   button.navbar-toggler.collapsed {
@@ -59,9 +59,6 @@
   }
   .navbar-light .navbar-toggler-icon {
     background-image: url("../../../assets/nav_open.png") !important;
-  }
-  .navbar-light .navbar-toggler-icon {
-    background-image: url("../../../assets/nav_close.png") !important;
   }
   .block_header--wrapper .banner {
     margin: 20% auto !important;
