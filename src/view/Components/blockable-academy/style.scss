@@ -12,22 +12,29 @@
 
             .card-title {
 
-                font-family: 'Helvetica';
                 font-style: normal;
                 font-weight: 700;
                 font-size: 4rem;
                 line-height: 94%;
                 letter-spacing: -0.03em;
                 color: #E4E4E4;
+                text-shadow: 2px 1px 2px #fff !important;
 
-                img {
-                    width: 7%;
+                .academy-link {
+                    display: contents;
+                    outline: none;
+                    box-shadow: none;
+                    border: none;
+
+                    img {
+                        width: 7%;
+                    }
                 }
+
 
             }
 
             .card-text {
-                font-family: 'Helvetica';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 1rem;
@@ -73,7 +80,7 @@
 
                 .card-text {
                     color: #FFFFFF;
-                    font-size: 0.7rem;
+                    font-size: 0.9rem;
                 }
             }
 

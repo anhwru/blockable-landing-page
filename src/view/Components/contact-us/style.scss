@@ -7,19 +7,21 @@
 
     .blockable_contact-title {
         padding: 15% 10% 5%;
+        text-align: center;
 
         h2 {
             font-size: 3rem;
             font-weight: 700;
             color: #E4E4E4;
             padding: 2rem 0 1rem;
+            text-shadow: 2px 1px 2px #fff !important;
 
         }
 
         p {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             color: #FFFFFF;
-            width: 70%;
+            width: 60%;
             margin: auto;
             padding-bottom: 2rem;
         }
@@ -27,10 +29,13 @@
         .disclaimer {
             padding: 5px 40px;
             border-radius: 99px;
+
         }
     }
 
     .contact-group {
+        text-align: center;
+
         button {
             padding: 0;
             margin: 0 2rem;

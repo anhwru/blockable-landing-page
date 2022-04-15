@@ -3,6 +3,7 @@ import * as Rb from "react-bootstrap";
 import "./style.scss";
 import AcademyCard from "./academy";
 import Arrow from "../../../assets/u_arrow-right.png";
+import { Button } from "bootstrap";
 
 const BlockableAcademy = () => {
   return (
@@ -13,7 +14,10 @@ const BlockableAcademy = () => {
             <Rb.Card>
               <Rb.Card.Body>
                 <Rb.Card.Title>
-                  Blockable Academy <img src={Arrow} alt="arrow" />
+                  Blockable Academy
+                  <Rb.Button variant="link" className="academy-link">
+                    <img src={Arrow} alt="arrow" />
+                  </Rb.Button>
                 </Rb.Card.Title>
                 <Rb.Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

@@ -11,17 +11,17 @@
         margin: auto;
 
         .blockable_hub-title {
-            font-family: 'Helvetica';
             font-style: normal;
             font-weight: 700;
             font-size: 4rem;
             line-height: 94%;
             letter-spacing: -0.03em;
             color: #E4E4E4;
+            text-align: center;
+            text-shadow: 2px 1px 2px #fff !important;
         }
 
         .blockable_hub-sub {
-            font-family: 'Helvetica';
             font-style: normal;
             font-weight: 400;
             font-size: 1rem;
@@ -45,17 +45,16 @@
         }
 
         .list_hub-title {
-            font-family: 'Helvetica';
             font-style: normal;
             font-weight: 700;
             font-size: 1rem;
             line-height: 94%;
             letter-spacing: -0.03em;
             color: #E4E4E4;
+
         }
 
         .list_hub-content {
-            font-family: 'Helvetica';
             font-style: normal;
             font-weight: 400;
             font-size: 0.7rem;
