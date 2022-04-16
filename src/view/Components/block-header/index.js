@@ -7,7 +7,7 @@ import { DataContext } from '../../../contexts/data.context';
 
 const BlockableHeader = () => {
   const data = useContext(DataContext);
-  
+
   return (
     <section className='block_header--wrapper'>
       <video className='videoTag' autoPlay loop muted id='background-video'>
