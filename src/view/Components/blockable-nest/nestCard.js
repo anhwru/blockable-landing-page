@@ -7,6 +7,7 @@ const NestCard = () => {
   return (
     <>
       <Rb.Card className="nest_card-items">
+        <Rb.Card.Img variant="top" src={Nest} />
         <Rb.Card.Title>Other Projects</Rb.Card.Title>
         <Rb.Card.Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -14,7 +15,6 @@ const NestCard = () => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </Rb.Card.Text>
-        <Rb.Card.Img variant="top" src={Nest} />
         <Rb.Card.Body>
           <Rb.Button variant="outline">
             <img src={Go} alt="go" />
