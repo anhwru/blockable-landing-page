@@ -5,7 +5,6 @@
 
 .blockable_partnership--wrapper .partnership-title {
   padding: 15% 10% 2%;
-  font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
@@ -13,11 +12,11 @@
   text-align: center;
   letter-spacing: -0.03em;
   color: #E4E4E4;
+  text-shadow: 2px 1px 2px #fff !important;
 }
 
 .blockable_partnership--wrapper .blockable_partner-sub {
   width: 85%;
-  font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;

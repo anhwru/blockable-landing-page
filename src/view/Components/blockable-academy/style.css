@@ -14,21 +14,28 @@
 }
 
 .blockable_academy--wrapper .academy-title .card .card-title {
-  font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
   line-height: 94%;
   letter-spacing: -0.03em;
   color: #E4E4E4;
+  text-shadow: 2px 1px 2px #fff !important;
 }
 
-.blockable_academy--wrapper .academy-title .card .card-title img {
+.blockable_academy--wrapper .academy-title .card .card-title .academy-link {
+  display: contents;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.blockable_academy--wrapper .academy-title .card .card-title .academy-link img {
   width: 7%;
 }
 
 .blockable_academy--wrapper .academy-title .card .card-text {
-  font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -71,7 +78,7 @@
 
 .blockable_academy--wrapper .card_items-wrapper .card .card-body .card-text {
   color: #FFFFFF;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 @media only screen and (max-device-width: 480px) {
