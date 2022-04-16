@@ -55,7 +55,7 @@
 @media only screen and (max-device-width: 480px) {
   .block_header--wrapper {
     height: auto;
-    margin-bottom: 15vh;
+    margin-bottom: 25vh;
   }
   .block_header--wrapper .card-title {
     font-size: 3rem !important;
