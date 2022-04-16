@@ -1,11 +1,12 @@
-import { useEffect, useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import './App.css';
-import Home from './view/HomePage/index';
-import Coming from './view/Coming';
-import CardPage from './view/CardPage';
-import Academy from './view/Academy';
+import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import "./App.css";
+import Home from "./view/HomePage/index";
+import Coming from "./view/Coming";
+import CardPage from "./view/CardPage";
+import Academy from "./view/Academy";
+import Icon from "./assets/icon_up.png";
 
 function App() {
   const { pathname } = useLocation();
@@ -16,7 +17,7 @@ function App() {
   }, [pathname]);
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
       if (window.pageYOffset > 300) {
         setShowButton(true);
       } else {
@@ -28,25 +29,31 @@ function App() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
 
   return (
-    <div className='App'>
+    <div className="App">
       {showButton && (
         <button
           onClick={scrollToTop}
-          className='back-to-top'
-          style={{ zIndex: 999999, background: '#fff', position: 'fixed', bottom: 10, right: 10 }}>
-          &#8679;
+          className="back-to-top"
+          style={{
+            zIndex: 999999,
+            position: "fixed",
+            bottom: "10%",
+            right: "5%",
+          }}
+        >
+          <img src={Icon} alt="scroll-to-top" />
         </button>
       )}
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/coming' element={<Coming />}></Route>
-        <Route path='/yggdrasil' element={<CardPage />}></Route>
-        <Route path='/academy' element={<Academy />}></Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/coming" element={<Coming />}></Route>
+        <Route path="/yggdrasil" element={<CardPage />}></Route>
+        <Route path="/academy" element={<Academy />}></Route>
       </Routes>
     </div>
   );
