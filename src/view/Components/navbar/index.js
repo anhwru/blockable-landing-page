@@ -10,7 +10,7 @@ export default function NavBarTop() {
 
   return (
     <Rb.Navbar bg='transparent' expand='lg' fixed='top'>
-      <Rb.Container>
+      <Rb.Container className='nav_container'>
         <Rb.Navbar.Brand href='#home'>
           <img src={Logo} alt='logo' />
         </Rb.Navbar.Brand>
@@ -28,7 +28,7 @@ export default function NavBarTop() {
                 duration={200}>
                 {e.name}
               </Link>
-            ))}          
+            ))}
           </Rb.Nav>
         </Rb.Navbar.Collapse>
       </Rb.Container>

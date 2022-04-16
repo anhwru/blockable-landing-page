@@ -1,0 +1,94 @@
+.blockable_academy--wrapper {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+}
+
+.blockable_academy--wrapper .academy-title {
+  padding: 7% 10% 5%;
+}
+
+.blockable_academy--wrapper .academy-title .card {
+  background-color: transparent;
+  text-align: left;
+}
+
+.blockable_academy--wrapper .academy-title .card .card-title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 94%;
+  letter-spacing: -0.03em;
+  color: #E4E4E4;
+}
+
+.blockable_academy--wrapper .academy-title .card .card-title img {
+  width: 7%;
+}
+
+.blockable_academy--wrapper .academy-title .card .card-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+.blockable_academy--wrapper .card_items-wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+
+.blockable_academy--wrapper .card_items-wrapper .card {
+  min-height: 35vh;
+  max-height: 40vh;
+  padding: 5%;
+  background: #142123;
+  border-radius: 35px;
+}
+
+.blockable_academy--wrapper .card_items-wrapper .card .card-img-top {
+  height: 6rem;
+  width: 6rem;
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 10%;
+}
+
+.blockable_academy--wrapper .card_items-wrapper .card .card-body .card-title {
+  color: #E4E4E4;
+  font-size: 1.3rem;
+  margin: 15% 0 10%;
+  font-weight: 700;
+}
+
+.blockable_academy--wrapper .card_items-wrapper .card .card-body .card-text {
+  color: #FFFFFF;
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .blockable_academy--wrapper {
+    height: auto;
+  }
+  .blockable_academy--wrapper .card-title {
+    font-size: 2.5rem !important;
+  }
+  .blockable_academy--wrapper .card-text {
+    font-size: 0.7rem !important;
+  }
+  .blockable_academy--wrapper .card_items-wrapper .card {
+    margin: 2rem 0 !important;
+  }
+  .blockable_academy--wrapper .card_items-wrapper .card .card-title {
+    font-size: 1.2rem !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

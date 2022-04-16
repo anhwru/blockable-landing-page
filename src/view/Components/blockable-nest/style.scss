@@ -11,17 +11,19 @@
             text-align: left;
 
             .card-title {
-                font-family: 'Helvetica';
+
                 font-style: normal;
                 font-weight: 700;
                 font-size: 4rem;
                 line-height: 94%;
                 letter-spacing: -0.03em;
                 color: #E4E4E4;
+
+                text-shadow: 2px 1px 2px #fff !important;
             }
 
             .card-text {
-                font-family: 'Helvetica';
+
                 font-style: normal;
                 font-weight: 400;
                 font-size: 1rem;
@@ -49,28 +51,29 @@
             border: 0.3px solid #EDFFF9;
 
             .card-title {
-                font-family: 'Helvetica';
                 font-style: normal;
                 font-weight: 700;
                 font-size: 1.4rem;
                 line-height: 94%;
                 letter-spacing: -0.03em;
                 color: #E4E4E4;
+                text-shadow: none !important;
+
             }
 
             .card-text {
-                font-family: 'Helvetica';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 0.7rem;
+                font-size: 0.8rem;
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #FFFFFF;
             }
 
             img {
-                width: 100%;
+                max-width: 70%;
                 margin: auto;
+                margin-bottom: 1rem;
             }
 
             .card-body {
@@ -88,7 +91,7 @@
                     box-shadow: none;
 
                     img {
-                        width: 100%;
+                        max-width: 70%;
                     }
                 }
             }

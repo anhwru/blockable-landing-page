@@ -1,0 +1,82 @@
+.card_grid-list {
+  padding: 10% 20% 5% 20%;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("../../../assets/bg3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_grid-list .ygg-wrapper {
+  position: relative;
+}
+
+.card_grid-list .ygg-wrapper .ygg-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(102.93%, #3D7361));
+  background: linear-gradient(90deg, #FFFFFF 0%, #3D7361 102.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  position: absolute;
+  bottom: 15%;
+}
+
+.card_grid-list .card_items {
+  padding: 0 10%;
+}
+
+.card_grid-list .card_items .item {
+  padding: 2%;
+}
+
+.card_grid-list .card_items .item .card {
+  height: 40vh;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card_grid-list .card_items .item .card img {
+  height: 25vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card_grid-list .card_items .item .card .card-body {
+  background-color: #141414;
+  position: relative;
+}
+
+.card_grid-list .card_items .item .card .card-body .card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 156%;
+  letter-spacing: -0.03em;
+  color: #E4E4E4;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.card_grid-list .card_items .item .card .card-body .description p {
+  margin: 2px 5px 2px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  text-align: left;
+}
+/*# sourceMappingURL=style.css.map */

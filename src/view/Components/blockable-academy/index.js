@@ -5,6 +5,8 @@ import AcademyCard from './academy';
 import Arrow from '../../../assets/u_arrow-right.png';
 import { DataContext } from '../../../contexts/data.context';
 
+import './style.scss';
+
 const BlockableAcademy = () => {
   const data = useContext(DataContext);
   return (
@@ -15,7 +17,10 @@ const BlockableAcademy = () => {
             <Rb.Card>
               <Rb.Card.Body>
                 <Rb.Card.Title>
-                  Blockable Academy <img src={Arrow} alt='arrow' />
+                  Blockable Academy
+                  <Rb.Button variant='link' className='academy-link'>
+                    <img src={Arrow} alt='arrow' />
+                  </Rb.Button>
                 </Rb.Card.Title>
                 <Rb.Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

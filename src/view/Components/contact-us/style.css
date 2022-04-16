@@ -1,0 +1,84 @@
+.blockable_contact--wrapper {
+  background-image: url("../../../assets/bg3.png");
+  height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockable_contact--wrapper .blockable_contact-title {
+  padding: 15% 10% 5%;
+}
+
+.blockable_contact--wrapper .blockable_contact-title h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #E4E4E4;
+  padding: 2rem 0 1rem;
+}
+
+.blockable_contact--wrapper .blockable_contact-title p {
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.blockable_contact--wrapper .blockable_contact-title .disclaimer {
+  padding: 5px 40px;
+  border-radius: 99px;
+}
+
+.blockable_contact--wrapper .contact-group button {
+  padding: 0;
+  margin: 0 2rem;
+  border: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.blockable_contact--wrapper .address-contact {
+  padding: 7rem 0;
+}
+
+.blockable_contact--wrapper .address-contact .addr {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  font-size: 0.7rem;
+}
+
+.blockable_contact--wrapper .address-contact .addr img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.blockable_contact--wrapper .address-contact .addr p {
+  line-height: 1.3rem;
+}
+
+.blockable_contact--wrapper .address-contact .addr a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .blockable_contact--wrapper {
+    height: auto;
+  }
+  .blockable_contact--wrapper .blockable_contact-title h2 {
+    font-size: 2rem;
+  }
+  .blockable_contact--wrapper .blockable_contact-title p {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+  .blockable_contact--wrapper .contact-group button {
+    margin: 1rem 0.75rem !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

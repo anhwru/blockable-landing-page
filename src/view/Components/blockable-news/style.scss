@@ -1,9 +1,36 @@
 .blockable_newsblock--wrapper {
     background-color: black;
     height: 100vh;
+    text-align: center;
+
+    button.slick-arrow.slick-prev::before {
+        display: none;
+    }
+
+    button.slick-arrow.slick-next::before {
+        display: none;
+    }
+
+    button.slick-arrow.slick-prev {
+        background-image: url("../../../assets/arr_prev.png");
+        height: 1.5rem;
+        width: 1.5rem;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+
+    button.slick-arrow.slick-next {
+        background-image: url("../../../assets/arr_next.png");
+        height: 1.5rem;
+        width: 1.5rem;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
 
     .blockable_news-title {
-        padding: 7% 10% 5%;
+        padding: 7% 3% 5%;
         font-style: normal;
         font-weight: 700;
         font-size: 3rem;
@@ -11,6 +38,7 @@
         letter-spacing: -0.03em;
         color: #E4E4E4;
         text-align: left;
+        text-shadow: 2px 1px 2px #fff !important;
     }
 
     .carousel-indicators {
@@ -69,6 +97,8 @@
         border: 1px solid #f2f2f2;
         background: #142123;
         border-radius: 40px;
+        width: 95%;
+        margin: auto;
 
 
         .box {
@@ -108,7 +138,7 @@
         .top-content {
             .timer {
                 font-weight: 400;
-                font-size: 0.6rem;
+                font-size: 0.8rem;
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #787878;
@@ -150,18 +180,18 @@
         justify-content: space-between;
 
         .top-content {
-            padding: 2% 4%;
+            padding: 4% 5%;
             color: #FFFFFF;
             text-align: left;
             border: 1px solid #f2f2f2;
             background: #142123;
             border-radius: 40px;
             margin: 4% 0 2%;
-            width: 47%;
+            width: 90% !important;
 
             .timer {
                 font-weight: 400;
-                font-size: 0.6rem;
+                font-size: 0.8rem;
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #787878;
@@ -187,7 +217,7 @@
             }
 
             p {
-                font-size: 0.7rem;
+                font-size: 0.8rem;
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #FFFFFF;
@@ -201,6 +231,17 @@
 }
 
 @media only screen and (max-device-width: 480px) {
+    .blockable_newsblock--wrapper button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -2%;
+    }
+
+    .blockable_newsblock--wrapper button.slick-arrow.slick-next {
+        position: absolute;
+        right: -2%;
+    }
+
+
     .blockable_newsblock--wrapper {
         height: auto;
 
@@ -213,7 +254,8 @@
         }
 
         .card_content-bot .top-content {
-            width: 100% !important;
+            width: 90% !important;
+            margin: 1rem auto;
         }
 
         .carousel-indicators {
