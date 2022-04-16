@@ -11,8 +11,10 @@ export const DataProvider = ({ children }) => {
       const res = await axios.get('https://blockable-web.herokuapp.com/api/get-alls');
       setData(res.data);
     };
-    getData();
-  }, []);
+    if (!data) {
+      getData();
+    }
+  }, [data]);
 
   return <DataContext.Provider value={data}>{data && children}</DataContext.Provider>;
 };
