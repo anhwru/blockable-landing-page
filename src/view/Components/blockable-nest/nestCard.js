@@ -4,7 +4,6 @@ import Nest from '../../../assets/nest2.png';
 import Go from '../../../assets/go_btn.png';
 
 const NestCard = ({ title, desc }) => {
-  console.log(title);
   return (
     <>
       <Rb.Card className='nest_card-items'>

@@ -11,26 +11,16 @@ const BlockableHub = () => {
       <Rb.Container>
         <Rb.Row>
           <Rb.Col lg={6} sm={6} className='hub-title'>
-            <h2 className='blockable_hub-title'>Blockable Hub</h2>
-            <p className='blockable_hub-sub'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-            </p>
+            <h2 className='blockable_hub-title'>{data.contents['Blockable Hub'].title}</h2>
+            <p className='blockable_hub-sub'>{data.contents['Blockable Hub'].description}</p>
           </Rb.Col>
         </Rb.Row>
         <Rb.Row>
-          <Rb.Col xl={6} lg={6} sm={12}>
-            {/* <img
-              className="hub-image"
-              src="https://www.kojac.nl/tailwind/images/Backend/nodejs.png"
-              alt="logo-hub"
-              width={300}
-            /> */}
-          </Rb.Col>
+          <Rb.Col xl={6} lg={6} sm={12}></Rb.Col>
           <Rb.Col xl={6} lg={6} sm={12} className='list-hub'>
             <Rb.Row>
-              {data.contents['Blockable Hub'].map((e) => (
-                <Rb.Col lg={6} sm={6} key={e.id}>
+              {data.contents['Blockable Hub'].items.map((e, i) => (
+                <Rb.Col lg={6} sm={6} key={i}>
                   <img src={e.img} alt='hub-img' />
                   <h3 className='list_hub-title'>{e.description}</h3>
                   <p className='list_hub-content'>{e.content}</p>

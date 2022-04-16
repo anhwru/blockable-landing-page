@@ -11,17 +11,14 @@ const BlockablePartnerShip = () => {
     <section className='blockable_partnership--wrapper' id='Partnership'>
       <Rb.Container>
         <Rb.Col lg={8} sm={12} className='text-center m-auto'>
-          <h2 className='partnership-title'>Blockable Partnership</h2>
-          <p className='blockable_partner-sub'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
+          <h2 className='partnership-title'>{data.contents['Partnership'].title}</h2>
+          <p className='blockable_partner-sub'>{data.contents['Partnership'].description}</p>
         </Rb.Col>
         <Rb.Row className='partnership-logo'>
           <Rb.Col md={9} lg={9} className='list-brand'>
             <Rb.Row>
-              {Object.entries(data.contents['Partnership']).map(([key, value]) => (
-                <Rb.Col md={3} lg={3} xl={3} sm={4} className='img-wrapper' key={value.id}>
+              {data.contents['Partnership'].items.map((e, i) => (
+                <Rb.Col md={3} lg={3} xl={3} sm={4} className='img-wrapper' key={i}>
                   <PartnerShip />
                 </Rb.Col>
               ))}

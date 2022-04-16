@@ -1,20 +1,21 @@
 import axios from 'axios';
-import { createContext, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 
 export const DataContext = createContext({});
 
 export const DataProvider = ({ children }) => {
   const [data, setData] = useState(null);
 
-  useState(() => {
-    const getData = async () => {
+  useEffect(() => {
+    async function getData() {
       const res = await axios.get('https://blockable-web.herokuapp.com/api/get-alls');
       setData(res.data);
-    };
-    if (!data) {
-      getData();
     }
-  }, [data]);
 
-  return <DataContext.Provider value={data}>{data && children}</DataContext.Provider>;
+    getData();
+  }, []);
+
+  return (
+    <DataContext.Provider value={data}>{data ? children : <div>loading</div>}</DataContext.Provider>
+  );
 };

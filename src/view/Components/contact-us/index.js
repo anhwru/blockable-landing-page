@@ -17,11 +17,8 @@ const Team = () => {
     <section className='blockable_contact--wrapper'>
       <Rb.Container>
         <Rb.Col lg={12} sm={12} className='blockable_contact-title' id='Contact us'>
-          <h2>Contact Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-          </p>
+          <h2>{data.contents['Contact us'].title}</h2>
+          <p>{data.contents['Contact us'].description}</p>
           <Rb.Button variant='outline-light' className='disclaimer'>
             Disclaimer
           </Rb.Button>

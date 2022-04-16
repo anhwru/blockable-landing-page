@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import * as Rb from 'react-bootstrap';
 import './style.scss';
 import NewsBlock from './newsBlock';
+import { DataContext } from '../../../contexts/data.context';
 import Box from '../../../assets/news_img.png';
 
 const BlockableNews = () => {
+  const data = useContext(DataContext);
+
   return (
     <section className='blockable_newsblock--wrapper' id='News'>
       <Rb.Container>
         <Rb.Col lg={10} sm={10} className='m-auto'>
-          <h2 className='blockable_news-title'>News</h2>
+          <h2 className='blockable_news-title'>{data.contents['News'].title}</h2>
           <Rb.Col md={12} className='card_content-top'>
             <Rb.Row>
               <Rb.Col md={3} lg={3} xl={3} className='box'>
@@ -26,12 +29,12 @@ const BlockableNews = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ut aliquip ex
-                  ea commodo consequat.{' '}
+                  ea commodo consequat.
                 </p>
               </Rb.Col>
             </Rb.Row>
           </Rb.Col>
-          <NewsBlock />
+          <NewsBlock items={data.contents['News'].items} />
         </Rb.Col>
       </Rb.Container>
     </section>
