@@ -83,7 +83,7 @@
         .top-content {
             .timer {
                 font-weight: 400;
-                font-size: 0.6rem;
+                font-size: 0.8rem;
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #787878;
@@ -123,6 +123,7 @@
     .card_content-bot {
         margin: auto;
         justify-content: space-between;
+        text-align: center;
 
         .top-content {
             padding: 4% 5%;
@@ -134,9 +135,10 @@
             margin: 4% 0 2%;
             width: 90% !important;
 
+
             .timer {
                 font-weight: 400;
-                font-size: 0.6rem;
+                font-size: 0.8rem;
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #787878;
@@ -162,7 +164,7 @@
             }
 
             p {
-                font-size: 0.7rem;
+                font-size: 0.8rem;
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #FFFFFF;
