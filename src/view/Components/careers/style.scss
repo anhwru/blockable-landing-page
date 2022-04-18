@@ -1,9 +1,14 @@
 .blockable_careers--wrapper {
-    background-image: url("../../../assets/bg_footer.png");
     height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+
+    .card {
+        background-color: transparent !important;
+    }
 
     button.slick-arrow.slick-prev::before {
         display: none;
@@ -32,7 +37,6 @@
     }
 
     .blockable_carrers-title {
-        padding: 7% 0 0;
         font-style: normal;
         font-weight: 700;
         font-size: 3rem;
@@ -45,6 +49,7 @@
 
     .card_content-top {
         padding: 2% 0;
+
 
         .box {
             height: 5rem;
@@ -77,6 +82,7 @@
                 letter-spacing: -0.03em;
                 text-transform: uppercase;
                 color: #FFFFFF;
+                text-shadow: 1px 2px #fff;
             }
         }
 
@@ -126,11 +132,13 @@
         text-align: center;
 
         .top-content {
-            padding: 4% 5%;
+            background-image: url("../../../assets/new-bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 12px 25px;
             color: #FFFFFF;
             text-align: left;
-            border: 1px solid #f2f2f2;
-            background: #142123;
             border-radius: 40px;
             margin: 4% 0 2%;
             width: 90% !important;

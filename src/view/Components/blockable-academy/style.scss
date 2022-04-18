@@ -1,10 +1,12 @@
 .blockable_academy--wrapper {
-    background-color: black;
+    background-color: #000f11;
     height: 100vh;
     position: relative;
+    display: flex;
+    align-items: center;
 
     .academy-title {
-        padding: 7% 10% 5%;
+        padding: 0% 10% 5%;
 
         .card {
             background-color: transparent;
@@ -54,8 +56,7 @@
         width: 80%;
 
         .card {
-            min-height: 35vh;
-            max-height: 40vh;
+            height: 40vh;
             padding: 5%;
             background: #142123;
             border-radius: 35px;
@@ -80,7 +81,7 @@
 
                 .card-text {
                     color: #FFFFFF;
-                    font-size: 0.9rem;
+                    font-size: 0.85rem;
                 }
             }
 

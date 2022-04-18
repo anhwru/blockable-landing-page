@@ -55,6 +55,10 @@
 // responsive
 @media only screen and (max-device-width: 480px) {
 
+    #background-video {
+        max-height: 60vh;
+    }
+
     .block_header--wrapper {
         height: auto;
         margin-bottom: 25vh;

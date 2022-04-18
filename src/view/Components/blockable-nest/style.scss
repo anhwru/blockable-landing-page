@@ -2,12 +2,14 @@
     background-color: black;
     height: 100vh;
     position: relative;
+    display: flex;
+    align-items: center;
 
     .nest-title {
-        padding: 7% 10% 5%;
+        padding: 0% 10% 5%;
 
         .card {
-            background-color: transparent;
+            background-color: transparent !important;
             text-align: left;
 
             .card-title {
@@ -43,12 +45,13 @@
         width: 80%;
 
         .nest_card-items {
-            background: rgba(255, 255, 255, 0.08);
-            backdrop-filter: blur(20px);
+            background-image: url("../../../assets/nest_bg.png");
             border-radius: 30px;
             min-height: 15vh;
-            padding: 2rem 1.8rem 0;
-            border: 0.3px solid #EDFFF9;
+            padding: 2rem 1.8rem;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
 
             .card-title {
                 font-style: normal;
@@ -97,6 +100,11 @@
             }
         }
 
+    }
+
+    .card {
+        background-color: transparent !important;
+        text-align: left;
     }
 
 }

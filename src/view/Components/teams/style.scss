@@ -1,6 +1,8 @@
 .blockable_team--wrapper {
     background-color: black;
     height: 100vh;
+    display: flex;
+    align-items: center;
 
     button.slick-arrow.slick-prev::before {
         display: none;
