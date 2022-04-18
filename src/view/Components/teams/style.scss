@@ -1,97 +1,103 @@
 .blockable_team--wrapper {
-    background-color: black;
-    height: 100vh;
+  background-color: black;
+  height: 100vh;
+  position: relative;
 
-    button.slick-arrow.slick-prev::before {
-        display: none;
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  button.slick-arrow.slick-prev::before {
+    display: none;
+  }
+
+  button.slick-arrow.slick-next::before {
+    display: none;
+  }
+
+  button.slick-arrow.slick-prev {
+    background-image: url('../../../assets/arr_prev.png');
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+  }
+
+  button.slick-arrow.slick-next {
+    background-image: url('../../../assets/arr_next.png');
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .blockable_team-title {
+    padding: 5% 10% 5%;
+    text-align: center;
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #e4e4e4;
+      padding: 2rem 0 1rem;
+      text-shadow: 2px 1px 2px #fff !important;
     }
 
-    button.slick-arrow.slick-next::before {
-        display: none;
+    p {
+      font-size: 0.85rem;
+      color: #ffffff;
+      width: 65%;
+      margin: auto;
+      padding-bottom: 2rem;
+    }
+  }
+
+  .card {
+    margin-top: 3rem;
+    background-color: transparent;
+
+    img {
+      width: 35%;
+      margin: auto;
     }
 
-    button.slick-arrow.slick-prev {
-        background-image: url("../../../assets/arr_prev.png");
-        height: 1.5rem;
-        width: 1.5rem;
-        object-fit: cover;
-        background-position: center;
-        background-size: cover;
+    .card-title {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #ffffff;
     }
 
-    button.slick-arrow.slick-next {
-        background-image: url("../../../assets/arr_next.png");
-        height: 1.5rem;
-        width: 1.5rem;
-        object-fit: cover;
-        background-position: center;
-        background-size: cover;
+    h3 {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin: 1rem 0;
     }
 
-    .blockable_team-title {
-        padding: 5% 10% 5%;
-        text-align: center;
-
-        h2 {
-            font-size: 3rem;
-            font-weight: 700;
-            color: #E4E4E4;
-            padding: 2rem 0 1rem;
-            text-shadow: 2px 1px 2px #fff !important;
-
-        }
-
-        p {
-            font-size: 0.85rem;
-            color: #FFFFFF;
-            width: 65%;
-            margin: auto;
-            padding-bottom: 2rem;
-        }
+    p {
+      width: 85%;
+      font-size: 0.8rem;
     }
-
-    .card {
-
-        margin-top: 3rem;
-        background-color: transparent;
-
-        img {
-            width: 35%;
-            margin: auto;
-        }
-
-        .card-title {
-            font-weight: 700;
-            font-size: 1.5rem;
-            color: #FFFFFF;
-        }
-
-        h3 {
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            color: #FFFFFF;
-            margin: 1rem 0;
-        }
-
-        p {
-            width: 85%;
-            font-size: 0.8rem;
-        }
-    }
+  }
 }
 
 @media only screen and (max-device-width: 480px) {
-    .blockable_team--wrapper {
-        height: auto;
+  .blockable_team--wrapper {
+    height: auto;
 
-        .blockable_team-title {
-            h2 {
-                font-size: 2rem;
-            }
+    .blockable_team-title {
+      h2 {
+        font-size: 2rem;
+      }
 
-            p {
-                width: 100% !important;
-            }
-        }
+      p {
+        width: 100% !important;
+      }
     }
+  }
 }

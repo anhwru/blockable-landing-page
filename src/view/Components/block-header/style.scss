@@ -1,72 +1,67 @@
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .block_header--wrapper {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
+  .banner {
+    margin: 20% 10%;
 
-    #background-video {
-        height: 100%;
-        width: 100%;
-        top: 0;
-        padding: none;
-
+    .banner-title {
+      top: 0;
+      position: absolute;
+      z-index: 9999;
+      margin-top: 20%;
     }
 
-    .banner {
-        margin: 20% 10%;
+    .card {
+      background-color: transparent;
+      border: none;
+      text-align: left;
 
-        .banner-title {
-            top: 0;
-            position: absolute;
-            z-index: 9999;
-            margin-top: 20%;
-        }
+      .card-title {
+        text-shadow: 2px 1px 2px #fff !important;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 94%;
+        letter-spacing: -0.02em;
+        background: linear-gradient(90deg, #ffffff 0%, #3d7361 102.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
 
-        .card {
-            background-color: transparent;
-            border: none;
-            text-align: left;
-
-            .card-title {
-                text-shadow: 2px 1px 2px #fff !important;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 4rem;
-                line-height: 94%;
-                letter-spacing: -0.02em;
-                background: linear-gradient(90deg, #FFFFFF 0%, #3D7361 102.93%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                text-fill-color: transparent;
-            }
-
-            .card-text {
-                font-family: 'Helvetica';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 1rem;
-                line-height: 160%;
-                letter-spacing: -0.03em;
-                color: #FFFFFF;
-            }
-        }
+      .card-text {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 160%;
+        letter-spacing: -0.03em;
+        color: #ffffff;
+      }
     }
+  }
 }
 
 // responsive
 @media only screen and (max-device-width: 480px) {
+  .block_header--wrapper {
+    height: auto;
+    margin-bottom: 25vh;
 
-    .block_header--wrapper {
-        height: auto;
-        margin-bottom: 25vh;
-
-        .card-title {
-            font-size: 3rem !important;
-        }
-
-        .card .card-text {
-            font-size: 0.8rem !important;
-        }
+    .card-title {
+      font-size: 3rem !important;
     }
 
-
+    .card .card-text {
+      font-size: 0.8rem !important;
+    }
+  }
 }

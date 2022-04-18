@@ -31,7 +31,7 @@ const BlockableAcademy = () => {
         <Rb.Row className='card_items-wrapper'>
           {data.contents['Blockable academy'].items.map((e, i) => (
             <Rb.Col lg={4} md={4} sm={12} key={i}>
-              <AcademyCard title={e.description} desc={e.content} />
+              <AcademyCard title={e.title} desc={e.content} />
             </Rb.Col>
           ))}
         </Rb.Row>

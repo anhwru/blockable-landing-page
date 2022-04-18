@@ -1,10 +1,4 @@
 .blockable_careers--wrapper {
-    background-image: url("../../../assets/bg_footer.png");
-    height: 100vh;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     button.slick-arrow.slick-prev::before {
         display: none;
     }
@@ -113,7 +107,7 @@
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #FFFFFF;
-                width: 80%;
+                width: 100%;
             }
         }
 
@@ -168,7 +162,7 @@
                 line-height: 160%;
                 letter-spacing: -0.03em;
                 color: #FFFFFF;
-                width: 80%;
+                width: 100%;
             }
         }
     }
